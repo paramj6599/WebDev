@@ -51,8 +51,8 @@ export default function AssignmentEditor() {
                         </select>
                         <br />
 
-                        <h5 id="wd-text-entry">Online Entry Options</h5>
-                        <label>Favorite movie genre:</label><br />
+                        <h5 id="wd-online-entry">Online Entry Options</h5>
+                        
 
                         <input type="checkbox" name="submission-type" id="wd-text-entry" />
                         <label htmlFor="wd-text-entry">Text</label><br />
@@ -60,7 +60,7 @@ export default function AssignmentEditor() {
                         <input type="checkbox" name="check-submission-type" id="wd-website-url" />
                         <label htmlFor="wd-website-url">Website URL</label><br />
 
-                        <input type="checkbox" name="submission-type" id="wd-website-url" />
+                        <input type="checkbox" name="submission-type" id="wd-media-recordings" />
                         <label htmlFor="wd-media-recordings">Media_recordings</label><br />
 
                         <input type="checkbox" name="submission-type" id="wd-student-annotation" />
