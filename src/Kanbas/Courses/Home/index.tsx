@@ -3,29 +3,19 @@ import CourseStatus from "./status";
 // import CourseStatus from "./Status";
 export default function Home() {
   return (
-    <div>
-      <div>
-        <button>Collapse all</button>
-        <button>View Progress</button>
-        <select
-          name="wd-course-home-selection"
-          id="wd-course-home-selection-uniq"
-        >
-          <option value="publis-all">Publish all</option>
-        </select>
-        <button>+ Module</button>
+
+    <div className="d-flex" id="wd-home">
+      <div className="flex-fill">
+        <Modules />
       </div>
-      <table id="wd-home">
-        <tr>
-          <td valign="top">
-            <Modules />
-          </td>
-          <td valign="top">
-            <CourseStatus />
-          </td>
-        </tr>
-      </table>
+
+      <div className="d-none d-md-block">
+        <CourseStatus />
+      </div>
     </div>
+
+
+
   );
 }
 
