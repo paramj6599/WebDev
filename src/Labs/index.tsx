@@ -3,9 +3,14 @@ import { Route, Routes, Navigate } from "react-router";
 import TOC from "./TOC";
 import Lab2 from "./Lab2";
 import Lab3 from "./Lab3";
+import Lab4 from "./Lab4";
+import store from "./store";
+import { Provider } from "react-redux";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 export default function Labs() {
   return (
+    <Provider store={store}>
+
     <div id="wd-labs">
       <h1>Labs</h1>
       <h3>Name :- Param Rajesh Joshi</h3>
@@ -16,9 +21,12 @@ export default function Labs() {
         <Route path="Lab1" element={<Lab1 />} />
         <Route path="Lab2" element={<Lab2 />} />
         <Route path="Lab3/*" element={<Lab3 />} />
+        <Route path="Lab4/*" element={<Lab4 />} />
 
       </Routes>
+     
     </div>
+    </Provider>
 );}
 
  
