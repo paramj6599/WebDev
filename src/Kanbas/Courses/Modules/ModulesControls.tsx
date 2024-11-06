@@ -1,20 +1,44 @@
 import { FaPlus } from "react-icons/fa6";
 import GreenCheckmark from "./GreenCheckmark";
+import Unpublish from "./Unpublish";
 import ModuleEditor from "./ModuleEditor";
-export default function ModulesControls({ moduleName, setModuleName, addModule }:
-  { moduleName: string; setModuleName: (title: string) => void; addModule: () => void; }) {
+import useIsFaculty from "../../Account/useIsFaculty";
+export default function ModulesControls({
+  moduleName,
+  setModuleName,
+  addModule,
+}: {
+  moduleName: string;
+  setModuleName: (title: string) => void;
+  addModule: () => void;
+}) {
+  const UserIsFaculty = useIsFaculty();
   return (
     <div id="wd-modules-controls" className="text-nowrap">
-      <button id="wd-add-module-btn" className="btn btn-lg btn-danger me-1 float-end" data-bs-toggle="modal" data-bs-target="#wd-add-module-dialog">
-        <FaPlus className="position-relative me-2" style={{ bottom: "1px" }} />
-        Module
-      </button>
-      <ModuleEditor dialogTitle="Add Module" moduleName={moduleName}
-                    setModuleName={setModuleName} addModule={addModule} />
+      {UserIsFaculty && (
+        <button
+          id="wd-add-module-btn"
+          className="btn btn-lg btn-danger me-1 float-end"
+          data-bs-toggle="modal"
+          data-bs-target="#wd-add-module-dialog"
+        >
+          <FaPlus
+            className="position-relative me-2"
+            style={{ bottom: "1px" }}
+          />
+          Module
+        </button>
+      )}
       <div className="dropdown d-inline me-1 float-end">
+        <button id="wd-collapse-all" className="btn btn-lg btn-secondary me-2">
+          Collapse All
+        </button>
+        <button id="wd-view-progress" className="btn btn-lg btn-secondary me-2">
+          View Progress
+        </button>
         <button
           id="wd-publish-all-btn"
-          className="btn btn-lg btn-secondary dropdown-toggle"
+          className="btn btn-lg btn-secondary dropdown-toggle me-2"
           type="button"
           data-bs-toggle="dropdown"
         >
@@ -48,7 +72,7 @@ export default function ModulesControls({ moduleName, setModuleName, addModule }
               className="dropdown-item"
               href="#"
             >
-              <GreenCheckmark />
+              <Unpublish />
               Unpublish all modules and items
             </a>
           </li>
@@ -58,34 +82,18 @@ export default function ModulesControls({ moduleName, setModuleName, addModule }
               className="dropdown-item"
               href="#"
             >
-              <GreenCheckmark />
+              <Unpublish />
               Unpublish modules only
             </a>
           </li>
         </ul>
       </div>
-      <div className=" d-inline me-1 float-end">
-        <button
-          id="wd-publish-all-btn"
-          className="btn btn-lg btn-secondary "
-          type="button"
-          
-        >
-          
-          View Progress
-        </button>
-        </div>
-        <div className=" d-inline me-1 float-end">
-        <button
-          id="wd-publish-all-btn"
-          className="btn btn-lg btn-secondary "
-          type="button"
-          
-        >
-          
-          Collapse All
-        </button>
-        </div>
+      <ModuleEditor
+        dialogTitle="Add Module"
+        moduleName={moduleName}
+        setModuleName={setModuleName}
+        addModule={addModule}
+      />
     </div>
   );
 }
