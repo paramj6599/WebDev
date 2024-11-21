@@ -10,7 +10,7 @@ export default function ModuleControlButtons({ moduleId, deleteModule , editModu
        <FaPencil onClick={() => editModule(moduleId)} className="text-primary me-3" />
 
       <GreenCheckmark />
-      <BsPlus className="fs-4" />
+      <BsPlus type="button"/>
       <IoEllipsisVertical className="fs-4" />
     </div>
   );
