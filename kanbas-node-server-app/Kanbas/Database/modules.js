@@ -1,460 +1,470 @@
-export default[
-    {
-      "_id": "M101",
-      "name": "Introduction to Rocket Propulsion",
-      "description": "Basic principles of rocket propulsion and rocket engines.",
-      "course": "RS101",
+export default [
+  {
+    "_id": "M101",
+    "name": "Introduction to Rocket Propulsion",
+    "description": "Basic principles of rocket propulsion and rocket engines.",
+    "course": "RS101",
+    "lessons": [
+      {
+        "_id": "L101",
+        "name": "History of Rocketry",
+        "description": "A brief history of rocketry and space exploration.",
+        "module": "M101"
+      },
+      {
+        "_id": "L102",
+        "name": "Rocket Propulsion Fundamentals",
+        "description": "Basic principles of rocket propulsion.",
+        "module": "M101"
+      },
+      {
+        "_id": "L103",
+        "name": "Rocket Engine Types",
+        "description": "Overview of different types of rocket engines.",
+        "module": "M101"
+      }
+    ]
+  },
+  {
+    "_id": "M102",
+    "name": "Fuel and Combustion",
+    "description": "Understanding rocket fuel, combustion processes, and efficiency.",
+    "course": "RS101",
+    "lessons": [
+      {
+        "_id": "L201",
+        "name": "Rocket Fuel",
+        "description": "Overview of different types of rocket fuels.",
+        "module": "M102"
+      },
+      {
+        "_id": "L202",
+        "name": "Combustion Processes",
+        "description": "Understanding combustion processes and efficiency.",
+        "module": "M102"
+      },
+      {
+        "_id": "L203",
+        "name": "Combustion Instability",
+        "description": "Understanding combustion instability and mitigation.",
+        "module": "M102"
+      }
+    ]
+  },
+  {
+    "_id": "M103",
+    "name": "Nozzle Design",
+    "description": "Principles of rocket nozzle design and performance optimization.",
+    "course": "RS101",
+    "lessons": [
+      {
+        "_id": "L301",
+        "name": "Nozzle Design",
+        "description": "Overview of different types of rocket nozzles.",
+        "module": "M103"
+      },
+      {
+        "_id": "L302",
+        "name": "Nozzle Performance",
+        "description": "Understanding nozzle performance and efficiency.",
+        "module": "M103"
+      },
+      {
+        "_id": "L303",
+        "name": "Nozzle Optimization",
+        "description": "Optimizing nozzle design for specific applications.",
+        "module": "M103"
+      }
+    ]
+  },
+  {
+    "_id": "M201",
+    "name": "Fundamentals of Aerodynamics",
+    "description": "Basic aerodynamic concepts and fluid dynamics principles.",
+    "course": "RS102",
+    "lessons": [
+      {
+        "_id": "L101",
+        "name": "History of Aerodynamics",
+        "description": "A brief history of Aerodynamics.",
+        "module": "M201"
+      },
+      {
+        "_id": "L102",
+        "name": "Aerodynamics Principles",
+        "description": "Basic principles of Aerodynamics.",
+        "module": "M201"
+      },
+      {
+        "_id": "L103",
+        "name": "Aerodynamics Applciations",
+        "description": "Overview of different applications of Aerodynamics.",
+        "module": "M201"
+      }
+    ]
+  },
+  {
+    "_id": "M202",
+    "name": "Subsonic and Supersonic Flow",
+    "description": "Understanding subsonic and supersonic aerodynamic behaviors.",
+    "course": "RS102",
+    "lessons": [
+      {
+        "_id": "L201",
+        "name": "History of Subsonic and Supersonic Flow",
+        "description": "A brief history of Aerodynamics.",
+        "module": "M202"
+      },
+      {
+        "_id": "L202",
+        "name": "Principles of Subsonic and Supersonic Flow",
+        "description": "Basic principles of Subsonic and Supersonic Flow.",
+        "module": "M202"
+      },
+      {
+        "_id": "L203",
+        "name": "Subsonic and Supersonic Flow Applciations",
+        "description": "Overview of different applications of Subsonic and Supersonic Flow.",
+        "module": "M202"
+      }
+    ]
+  },
+  {
+    "_id": "M203",
+    "name": "Aerodynamic Heating",
+    "description": "Study of aerodynamic heating and thermal protection systems.",
+    "course": "RS102",
+    "lessons": [
+      {
+        "_id": "L301",
+        "name": "History of Subsonic and Supersonic Flow",
+        "description": "A brief history of Aerodynamics.",
+        "module": "M203"
+      },
+      {
+        "_id": "L302",
+        "name": "Principles of Subsonic and Supersonic Flow",
+        "description": "Basic principles of Subsonic and Supersonic Flow.",
+        "module": "M203"
+      },
+      {
+        "_id": "L303",
+        "name": "Subsonic and Supersonic Flow Applciations",
+        "description": "Overview of different applications of Subsonic and Supersonic Flow.",
+        "module": "M203"
+      }
+    ]
+  },
+  {
+    "_id": "M301",
+    "name": "Spacecraft Structural Design",
+    "description": "Fundamentals of designing spacecraft structures and materials selection.",
+    "course": "RS103",
+    "lessons": [
+      {
+        "_id": "L101",
+        "name": "Design of Spacecraft Structures",
+        "description": "A brief history of Design of Spacecraft Structures.",
+        "module": "M301"
+      },
+      {
+        "_id": "L102",
+        "name": "Principles of material selection",
+        "description": "Basic principles of material selection for Spacecraft structures.",
+        "module": "M301"
+      },
+      {
+        "_id": "L103",
+        "name": "Material Selection Applciations",
+        "description": "Overview of different applications of material selection.",
+        "module": "M301"
+      }
+    ]
+  },
+  {
+    "_id": "M302",
+    "name": "Orbital Mechanics",
+    "description": "Understanding orbital dynamics and mission planning.",
+    "course": "RS103",
+    "lessons": [
+      {
+        "_id": "L201",
+        "name": "Design of Orbital Dynamics",
+        "description": "A brief history of Orbital Dynamics.",
+        "module": "M302"
+      },
+      {
+        "_id": "L202",
+        "name": "Principles of Mission Planning",
+        "description": "Basic principles of Mission Planning.",
+        "module": "M302"
+      },
+      {
+        "_id": "L203",
+        "name": "Mission Planning Applciations",
+        "description": "Overview of different applications of Mission Planning.",
+        "module": "M302"
+      }
+    ]
+  },
+  {
+    "_id": "M303",
+    "name": "Spacecraft Systems Engineering",
+    "description": "Overview of spacecraft systems and subsystems engineering.",
+    "course": "RS103",
+    "lessons": [
+      {
+        "_id": "L301",
+        "name": "Design of Spacecrafts",
+        "description": "A brief history of Spacecrafts.",
+        "module": "M303"
+      },
+      {
+        "_id": "L302",
+        "name": "Principles of Mission Planning",
+        "description": "Basic principles of Mission Planning.",
+        "module": "M303"
+      },
+      {
+        "_id": "L303",
+        "name": "Mission Planning Applciations",
+        "description": "Overview of different applications of Mission Planning.",
+        "module": "M303"
+      }
+    ]
+  },
+  {
+      "_id": "M401",
+      "name": "Organic Chemistry",
+      "description": "Overview of Organic Chemistry.",
+      "course": "RS104",
       "lessons": [
         {
           "_id": "L101",
-          "name": "History of Rocketry",
-          "description": "A brief history of rocketry and space exploration.",
-          "module": "M101"
+          "name": "Design of Organic Chemistry",
+          "description": "A brief history of Organic Chemistry.",
+          "module": "M401"
         },
         {
           "_id": "L102",
-          "name": "Rocket Propulsion Fundamentals",
-          "description": "Basic principles of rocket propulsion.",
-          "module": "M101"
+          "name": "Principles of Organic Chemistry",
+          "description": "Basic principles of Organic Chemistry.",
+          "module": "M401"
         },
         {
           "_id": "L103",
-          "name": "Rocket Engine Types",
-          "description": "Overview of different types of rocket engines.",
-          "module": "M101"
+          "name": "Organic Chemistry Applciations",
+          "description": "Overview of different applications of Organic Chemistry.",
+          "module": "M401"
         }
       ]
     },
     {
-      "_id": "M102",
-      "name": "Fuel and Combustion",
-      "description": "Understanding rocket fuel, combustion processes, and efficiency.",
-      "course": "RS101",
+      "_id": "M402",
+      "name": "Organic Chemistry",
+      "description": "Overview of Organic Chemistry.",
+      "course": "RS104",
       "lessons": [
         {
           "_id": "L201",
-          "name": "Rocket Fuel",
-          "description": "Overview of different types of rocket fuels.",
-          "module": "M102"
+          "name": "Fundamentals of Organic Chemistry",
+          "description": "A brief history of Organic Chemistry.",
+          "module": "M402"
         },
         {
           "_id": "L202",
-          "name": "Combustion Processes",
-          "description": "Understanding combustion processes and efficiency.",
-          "module": "M102"
+          "name": "Innovations in Organic Chemistry",
+          "description": "Basic principles of Organic Chemistry.",
+          "module": "M402"
         },
         {
           "_id": "L203",
-          "name": "Combustion Instability",
-          "description": "Understanding combustion instability and mitigation.",
-          "module": "M102"
+          "name": "Organic Chemistry Applciations",
+          "description": "Overview of different applications of Organic Chemistry.",
+          "module": "M402"
         }
       ]
     },
     {
-      "_id": "M103",
-      "name": "Nozzle Design",
-      "description": "Principles of rocket nozzle design and performance optimization.",
-      "course": "RS101",
+      "_id": "M403",
+      "name": "Organic Chemistry",
+      "description": "Overview of Organic Chemistry.",
+      "course": "RS104",
       "lessons": [
         {
           "_id": "L301",
-          "name": "Nozzle Design",
-          "description": "Overview of different types of rocket nozzles.",
-          "module": "M103"
+          "name": "Design of Organic Chemistry Experiments",
+          "description": "A brief history of Organic Chemistry.",
+          "module": "M403"
         },
         {
           "_id": "L302",
-          "name": "Nozzle Performance",
-          "description": "Understanding nozzle performance and efficiency.",
-          "module": "M103"
+          "name": "Principles of Organic Chemistry",
+          "description": "Basic principles of Organic Chemistry.",
+          "module": "M403"
         },
         {
           "_id": "L303",
-          "name": "Nozzle Optimization",
-          "description": "Optimizing nozzle design for specific applications.",
-          "module": "M103"
+          "name": "Organic Chemistry Applciations",
+          "description": "Overview of different applications of Organic Chemistry.",
+          "module": "M403"
         }
       ]
     },
     {
-      "_id": "M201",
-      "name": "Fundamentals of Aerodynamics",
-      "description": "Basic aerodynamic concepts and fluid dynamics principles.",
-      "course": "RS102",
-      "lessons": [
-        {
-          "_id": "L201.1",
-          "name": "Basic Aerodynamics",
-          "description": "Introduction to the basic principles of aerodynamics, including lift and drag.",
-          "module": "M201"
-        },
-        {
-          "_id": "L201.2",
-          "name": "Fluid Dynamics",
-          "description": "Study of fluid dynamics principles applied to aerodynamics.",
-          "module": "M201"
-        }
-      ]
-    },
-    {
-      "_id": "M202",
-      "name": "Subsonic and Supersonic Flow",
-      "description": "Understanding subsonic and supersonic aerodynamic behaviors.",
-      "course": "RS102",
-      "lessons": [
-        {
-          "_id": "L202.1",
-          "name": "Subsonic Flow Characteristics",
-          "description": "Exploration of flow characteristics at subsonic speeds.",
-          "module": "M202"
-        },
-        {
-          "_id": "L202.2",
-          "name": "Supersonic Flow Dynamics",
-          "description": "Study of shock waves and aerodynamic behavior at supersonic speeds.",
-          "module": "M202"
-        }
-      ]
-    },
-    {
-      "_id": "M203",
-      "name": "Aerodynamic Heating",
-      "description": "Study of aerodynamic heating and thermal protection systems.",
-      "course": "RS102",
-      "lessons": [
-        {
-          "_id": "L203.1",
-          "name": "Heat Transfer in Aerodynamics",
-          "description": "Understanding the principles of heat transfer in aerodynamic contexts.",
-          "module": "M203"
-        },
-        {
-          "_id": "L203.2",
-          "name": "Thermal Protection Systems",
-          "description": "Overview of materials and systems used for thermal protection in aerospace.",
-          "module": "M203"
-        }
-      ]
-    },
-    {
-      "_id": "M301",
-      "name": "Spacecraft Structural Design",
-      "description": "Fundamentals of designing spacecraft structures and materials selection.",
-      "course": "RS103",
-      "lessons": [
-        {
-          "_id": "L301.1",
-          "name": "Structural Materials",
-          "description": "Study of materials used in spacecraft construction and their properties.",
-          "module": "M301"
-        },
-        {
-          "_id": "L301.2",
-          "name": "Design Principles",
-          "description": "Fundamental principles of spacecraft structural design.",
-          "module": "M301"
-        }
-      ]
-    },
-    {
-      "_id": "M302",
-      "name": "Orbital Mechanics",
-      "description": "Understanding orbital dynamics and mission planning.",
-      "course": "RS103",
-      "lessons": [
-        {
-          "_id": "L302.1",
-          "name": "Orbital Dynamics",
-          "description": "Introduction to the physics of orbital motion and dynamics.",
-          "module": "M302"
-        },
-        {
-          "_id": "L302.2",
-          "name": "Mission Planning",
-          "description": "Strategies and considerations for planning space missions.",
-          "module": "M302"
-        }
-      ]
-    },
-    {
-      "_id": "M303",
-      "name": "Spacecraft Systems Engineering",
-      "description": "Overview of spacecraft systems and subsystems engineering.",
-      "course": "RS103",
-      "lessons": [
-        {
-          "_id": "L303.1",
-          "name": "Subsystem Integration",
-          "description": "Study of the integration of various spacecraft subsystems.",
-          "module": "M303"
-        },
-        {
-          "_id": "L303.2",
-          "name": "Systems Engineering Principles",
-          "description": "Understanding the principles of systems engineering in spacecraft design.",
-          "module": "M303"
-        }
-      ]
-    },
-    {
-      "_id": "OC101",
-      "name": "Introduction to Organic Chemistry",
-      "description": "Fundamental concepts of organic chemistry.",
-      "course": "RS104",
-      "lessons": [
-        {
-          "_id": "OC101.1",
-          "name": "Hydrocarbons",
-          "description": "Overview of alkanes, alkenes, and alkynes, including their properties and reactions.",
-          "module": "OC101"
-        },
-        {
-          "_id": "OC101.2",
-          "name": "Functional Groups",
-          "description": "Introduction to functional groups and their role in organic chemistry.",
-          "module": "OC101"
-        }
-      ]
-    },
-    {
-      "_id": "OC102",
-      "name": "Organic Reaction Mechanisms",
-      "description": "Study of various organic reaction mechanisms.",
-      "course": "RS104",
-      "lessons": [
-        {
-          "_id": "OC102.1",
-          "name": "Substitution Reactions",
-          "description": "Study of nucleophilic substitution reactions and mechanisms.",
-          "module": "OC102"
-        },
-        {
-          "_id": "OC102.2",
-          "name": "Elimination Reactions",
-          "description": "Analysis of elimination reactions and their mechanisms.",
-          "module": "OC102"
-        }
-      ]
-    },
-    {
-      "_id": "OC103",
-      "name": "Spectroscopy and Structure Determination",
-      "description": "Techniques for determining the structure of organic compounds.",
-      "course": "RS104",
-      "lessons": [
-        {
-          "_id": "OC103.1",
-          "name": "NMR Spectroscopy",
-          "description": "Principles and applications of nuclear magnetic resonance in structure determination.",
-          "module": "OC103"
-        },
-        {
-          "_id": "OC103.2",
-          "name": "Mass Spectrometry",
-          "description": "Introduction to mass spectrometry and its use in organic chemistry.",
-          "module": "OC103"
-        }
-      ]
-    },
-    {
-      "_id": "IC101",
-      "name": "Introduction to Inorganic Chemistry",
-      "description": "Basic principles and concepts of inorganic chemistry.",
+      "_id": "M501",
+      "name": "Inorganic Chemistry",
+      "description": "Overview of Inorganic Chemistry.",
       "course": "RS105",
       "lessons": [
         {
-          "_id": "IC101.1",
-          "name": "Periodic Table Trends",
-          "description": "Overview of trends in the periodic table and their implications.",
-          "module": "IC101"
+          "_id": "L101",
+          "name": "Design of Inorganic Chemistry",
+          "description": "A brief history of Inorganic Chemistry.",
+          "module": "M501"
         },
         {
-          "_id": "IC101.2",
-          "name": "Bonding Theories",
-          "description": "Study of bonding theories, including ionic and covalent bonds.",
-          "module": "IC101"
+          "_id": "L102",
+          "name": "Principles of Inorganic Chemistry",
+          "description": "Basic principles of Inorganic Chemistry.",
+          "module": "M501"
+        },
+        {
+          "_id": "L103",
+          "name": "Inorganic Chemistry Applciations",
+          "description": "Overview of different applications of Inorganic Chemistry.",
+          "module": "M501"
         }
       ]
     },
     {
-      "_id": "IC102",
-      "name": "Coordination Chemistry",
-      "description": "Understanding coordination complexes and their properties.",
+      "_id": "M502",
+      "name": "Inorganic Chemistry",
+      "description": "Overview of Inorganic Chemistry.",
       "course": "RS105",
       "lessons": [
         {
-          "_id": "IC102.1",
-          "name": "Complex Formation",
-          "description": "Understanding the formation and properties of coordination complexes.",
-          "module": "IC102"
+          "_id": "L201",
+          "name": "Fundamentals of Inorganic Chemistry",
+          "description": "A brief history of Inorganic Chemistry.",
+          "module": "M502"
         },
         {
-          "_id": "IC102.2",
-          "name": "Crystal Field Theory",
-          "description": "Exploration of crystal field theory and its applications.",
-          "module": "IC102"
+          "_id": "L202",
+          "name": "Innovations in Inorganic Chemistry",
+          "description": "Basic principles of Inorganic Chemistry.",
+          "module": "M502"
+        },
+        {
+          "_id": "L203",
+          "name": "Inorganic Chemistry Applciations",
+          "description": "Overview of different applications of Inorganic Chemistry.",
+          "module": "M502"
         }
       ]
     },
     {
-      "_id": "IC103",
-      "name": "Inorganic Reactions and Mechanisms",
-      "description": "Study of inorganic reaction types and mechanisms.",
+      "_id": "M503",
+      "name": "Inorganic Chemistry",
+      "description": "Overview of Inorganic Chemistry.",
       "course": "RS105",
       "lessons": [
         {
-          "_id": "IC103.1",
-          "name": "Oxidation-Reduction Reactions",
-          "description": "Understanding redox reactions and their applications in inorganic chemistry.",
-          "module": "IC103"
+          "_id": "L301",
+          "name": "Design of Inorganic Chemistry Experiments",
+          "description": "A brief history of Inorganic Chemistry.",
+          "module": "M503"
         },
         {
-          "_id": "IC103.2",
-          "name": "Acid-Base Reactions",
-          "description": "Study of acid-base reactions and their role in inorganic processes.",
-          "module": "IC103"
+          "_id": "L302",
+          "name": "Principles of Inorganic Chemistry",
+          "description": "Basic principles of Inorganic Chemistry.",
+          "module": "M503"
+        },
+        {
+          "_id": "L303",
+          "name": "Organic Chemistry Applciations",
+          "description": "Overview of different applications of Inorganic Chemistry.",
+          "module": "M503"
         }
       ]
     },
     {
-      "_id": "PC101",
-      "name": "Thermodynamics",
-      "description": "Comprehensive study of thermodynamic principles.",
+      "_id": "M601",
+      "name": "Physical Chemistry",
+      "description": "Overview of Physical Chemistry.",
       "course": "RS106",
       "lessons": [
         {
-          "_id": "PC101.1",
-          "name": "Laws of Thermodynamics",
-          "description": "Detailed study of the laws of thermodynamics and their applications.",
-          "module": "PC101"
+          "_id": "L101",
+          "name": "Design of Physical Chemistry",
+          "description": "A brief history of Physical Chemistry.",
+          "module": "M601"
         },
         {
-          "_id": "PC101.2",
-          "name": "Thermodynamic Processes",
-          "description": "Analysis of various thermodynamic processes in chemistry.",
-          "module": "PC101"
+          "_id": "L102",
+          "name": "Principles of Physical Chemistry",
+          "description": "Basic principles of Physical Chemistry.",
+          "module": "M601"
+        },
+        {
+          "_id": "L103",
+          "name": "Physical Chemistry Applciations",
+          "description": "Overview of different applications of Physical Chemistry.",
+          "module": "M601"
         }
       ]
     },
     {
-      "_id": "PC102",
-      "name": "Kinetics and Reaction Dynamics",
-      "description": "Study of chemical kinetics and reaction dynamics.",
+      "_id": "M602",
+      "name": "Physical Chemistry",
+      "description": "Overview of Physical Chemistry.",
       "course": "RS106",
       "lessons": [
         {
-          "_id": "PC102.1",
-          "name": "Reaction Rates",
-          "description": "Exploration of factors affecting reaction rates and rate laws.",
-          "module": "PC102"
+          "_id": "L201",
+          "name": "Fundamentals of Physical Chemistry",
+          "description": "A brief history of Physical Chemistry.",
+          "module": "M602"
         },
         {
-          "_id": "PC102.2",
-          "name": "Catalysis",
-          "description": "Study of catalytic processes and their mechanisms.",
-          "module": "PC102"
+          "_id": "L202",
+          "name": "Innovations in Physical Chemistry",
+          "description": "Basic principles of Physical Chemistry.",
+          "module": "M602"
+        },
+        {
+          "_id": "L203",
+          "name": "Physical Chemistry Applciations",
+          "description": "Overview of different applications of Physical Chemistry.",
+          "module": "M602"
         }
       ]
     },
     {
-      "_id": "PC103",
-      "name": "Quantum Chemistry",
-      "description": "Introduction to quantum mechanics and its application in chemistry.",
+      "_id": "M603",
+      "name": "Physical Chemistry",
+      "description": "Overview of Physical Chemistry.",
       "course": "RS106",
       "lessons": [
         {
-          "_id": "PC103.1",
-          "name": "Wave Functions and Operators",
-          "description": "Study of wave functions, operators, and their significance in quantum chemistry.",
-          "module": "PC103"
+          "_id": "L301",
+          "name": "Design of Physical Chemistry Experiments",
+          "description": "A brief history of Physical Chemistry.",
+          "module": "M603"
         },
         {
-          "_id": "PC103.2",
-          "name": "Quantum Models of Atoms",
-          "description": "Understanding quantum models of atoms and their applications.",
-          "module": "PC103"
-        }
-      ]
-    },
-    {
-      "_id": "ME101",
-      "name": "Elvish Languages",
-      "description": "Study of Elvish languages and their structures.",
-      "course": "RS107",
-      "lessons": [
-        {
-          "_id": "ME101.1",
-          "name": "Sindarin",
-          "description": "Introduction to Sindarin grammar and vocabulary.",
-          "module": "ME101"
+          "_id": "L302",
+          "name": "Principles of Physical Chemistry",
+          "description": "Basic principles of Physical Chemistry.",
+          "module": "M603"
         },
         {
-          "_id": "ME101.2",
-          "name": "Quenya",
-          "description": "Study of Quenya syntax and phonetics.",
-          "module": "ME101"
-        }
-      ]
-    },
-    {
-      "_id": "ME102",
-      "name": "Dwarvish and Black Speech",
-      "description": "Exploration of Dwarvish language and the Black Speech of Mordor.",
-      "course": "RS107",
-      "lessons": [
-        {
-          "_id": "ME102.1",
-          "name": "Khuzdul Basics",
-          "description": "Overview of Dwarvish language structure and usage.",
-          "module": "ME102"
-        },
-        {
-          "_id": "ME102.2",
-          "name": "Black Speech of Mordor",
-          "description": "Understanding the linguistic features of the Black Speech.",
-          "module": "ME102"
-        }
-      ]
-    },
-    {
-      "_id": "ME103",
-      "name": "Philological Aspects",
-      "description": "Study of philological aspects and linguistic evolution in Middle-earth.",
-      "course": "RS107",
-      "lessons": [
-        {
-          "_id": "ME103.1",
-          "name": "Historical Contexts",
-          "description": "Exploration of historical contexts and influences on language development.",
-          "module": "ME103"
-        },
-        {
-          "_id": "ME103.2",
-          "name": "Language Evolution",
-          "description": "Study of language evolution and its impact on Middle-earth's cultures.",
-          "module": "ME103"
-        }
-      ]
-    },
-    {
-      "_id": "ME201",
-      "name": "Historical Alliances",
-      "description": "Study of historical alliances in Middle-earth.",
-      "course": "RS108",
-      "lessons": [
-        {
-          "_id": "ME201.1",
-          "name": "Council of Elrond",
-          "description": "Study of the Council of Elrond and its diplomatic significance.",
-          "module": "ME201"
-        },
-        {
-          "_id": "ME201.2",
-          "name": "War of the Ring",
-          "description": "Analysis of alliances during the War of the Ring.",
-          "module": "ME201"
+          "_id": "L303",
+          "name": "Physical Chemistry Applciations",
+          "description": "Overview of different applications of Physical Chemistry.",
+          "module": "M603"
         }
       ]
     }
-  ]
+];

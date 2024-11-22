@@ -8,4 +8,4 @@ export default [
   { "_id": "A301", "title": "Structural Design Task", "course": "RS103", "description": "Solve this assignment on structual designing", "points": 100, "dueDate": "2024-05-17T23:59", "availableDate": "2024-05-10T00:00" },
   { "_id": "A302", "title": "Orbital Calculations", "course": "RS103", "description": "Solve this assignment on orbits", "points": 100, "dueDate": "2024-05-24T23:59", "availableDate": "2024-05-17T00:00" },
   { "_id": "A303", "title": "Systems Engineering Exam", "course": "RS103", "description": "Complete this exam on systems engineering", "points": 100, "dueDate": "2024-05-31T23:59", "availableDate": "2024-05-24T00:00" }
-]
+];
