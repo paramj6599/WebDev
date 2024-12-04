@@ -7,4 +7,3 @@ export default function LessonControlButtons() {
       <IoEllipsisVertical className="fs-4" />
     </div>
 );}
-
