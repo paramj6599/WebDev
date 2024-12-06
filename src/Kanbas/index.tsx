@@ -15,6 +15,7 @@ import * as userClient from "./Account/client";
 import * as courseClient from "./Courses/client";
 import { useSelector } from "react-redux";
 import { useEffect } from "react";
+import { Console } from "console";
 
 export default function Kanbas() {
     const [courses, setCourses] = useState<any[]>([]);
